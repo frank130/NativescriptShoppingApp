@@ -1,0 +1,61 @@
+StackLayout
+{
+    border-color: midnightblue;
+    border-width: 5;
+
+    background-color: snow;
+    background-image: url('https://d39l2hkdp2esp1.cloudfront.net/img/photo/191054/191054_00_2x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.clearBtn
+{
+    font-size: 20;
+    color: midnightblue;
+
+    border-color: midnightblue;
+    border-width: 2;
+
+    background-color: white;
+}
+.backBtn
+{
+    font-size: 20;
+    color: midnightblue;
+
+    border-color: midnightblue;
+    border-width: 2;
+
+    background-color: white;
+
+    margin-top: 30;
+}
+.addBtn
+{
+
+    font-size: 20;
+    background-color: midnightblue;
+
+    border-color: silver;
+    border-width: 2;
+
+    color: ghostwhite;
+}
+.total
+{
+    text-align: center;
+    font-size: 20;
+    color: black;
+}
+.inCart
+{
+    background-color: azure;
+
+    border-color: midnightblue;
+    border-width: 2;
+
+    color: midnightblue;
+    font-size: 12;
+}

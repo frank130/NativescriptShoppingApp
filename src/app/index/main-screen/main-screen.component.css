@@ -1,0 +1,28 @@
+.page {
+
+    align-items: center;
+    flex-direction: column;
+
+  }
+.form {
+    margin-left: 30;
+    margin-right: 30;
+    flex-grow: 2;
+    vertical-align: middle;
+}
+.welcomeLabel
+{
+    margin-top: 30;
+    font-size: 24;
+    text-align: center;
+}
+.mainBtn
+{
+    background-color: azure;
+
+    border-color: midnightblue;
+    border-width: 1;
+
+    color: midnightblue;
+    font-size: 15;
+}

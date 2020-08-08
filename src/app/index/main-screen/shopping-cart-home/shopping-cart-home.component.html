@@ -1,0 +1,16 @@
+<StackLayout>
+    <Button class="backBtn" text="Back to Main" (tap)="goBack()"></Button>
+    <Button class="clearBtn" text="Clear Cart" (tap)="clearCart()"></Button>
+    <Button class="addBtn" text="Go Shopping!" [nsRouterLink]="['/shopping-cart-home/store-screen']"></Button>
+    <Label class="total" text="Your Cart"></Label>
+    <Label class="total" name="totalPrice" [text]="'Total Price: $' + totalPrice"></Label>
+
+    <GridLayout>
+        <ListView [items]="itemsInCart">
+            <ng-template let-item="item">
+                <label class="inCart" (tap)="editItemCart(item)" [text]="'Item: ' + item.itemName + '      Quantity: ' + item.itemQuantity + '       Price: $' + item.itemPrice"></label>
+            </ng-template>
+        </ListView>
+    </GridLayout>
+
+</StackLayout>

@@ -1,0 +1,38 @@
+.layout
+{
+    background-color: rgb(23, 26, 26);
+
+    background-image: url('https://ae01.alicdn.com/kf/HTB1AQeZdqWs3KVjSZFxq6yWUXXag/Vintage-Old-Wood-Photo-Background-Shabby-Dark-Wooden-Floor-Party-Decoration-Backdrop-Newborn-Studio-Child-Photography.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.back
+{
+    background-color: midnightblue;
+
+    border-color: cornflowerblue;
+    border-width: 2;
+
+    color: ghostwhite;
+
+    margin-top: 30;
+}
+.title
+{
+    text-align: center;
+    font-size: 20;
+    color: white;
+}
+
+.shopButtons
+{
+    background-color: azure;
+
+    border-color: midnightblue;
+    border-width: 2;
+
+    color: midnightblue;
+    font-size: 15;
+}
+

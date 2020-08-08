@@ -1,0 +1,23 @@
+
+<StackLayout class="layout">
+    <Button class="back" text="Back to Cart" (tap)="goBack()"></Button>
+    <Label class="title" text="Tap Some Items to Add!"></Label>
+
+
+    <GridLayout>
+        <ListView [items]="itemsAtShop">
+            <ng-template let-item="item">
+
+                <button class="shopButtons" (tap)="addToCart(item)">
+                    <FormattedString>
+                        <Span [text]="' ' + item.itemName  + '   ----- '"></Span>
+                        <Span [text]="'   Price: $' + item.itemPrice"></Span>
+                    </FormattedString>
+                </button>
+
+            </ng-template>
+        </ListView>
+    </GridLayout>
+
+
+</StackLayout>

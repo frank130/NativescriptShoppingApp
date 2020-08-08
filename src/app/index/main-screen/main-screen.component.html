@@ -1,0 +1,26 @@
+
+<FlexboxLayout class="page">
+
+    <StackLayout class="form">
+
+        <label textWrap=true class="welcomeLabel" text="Welcome to Your Online Shopping!"></label>
+        <Button class="mainBtn" text="Go To Home Page" [nsRouterLink]="['/main-screen/shopping-cart-home']"></Button>
+
+
+        <StackLayout class="input-field">
+            <TextField class="input" [(ngModel)]="username" hint="NOT YET IMPLEMENTED, TAP HOME PAGE"></TextField>
+        </StackLayout>
+
+        <StackLayout class="input-field">
+            <TextField class="input" [(ngModel)]="password" hint="NOT YET IMPLEMENTED, TAP HOME PAGE"></TextField>
+        </StackLayout>
+
+        <Button class="mainBtn" text="Log In" (tap)="login()"></Button>
+
+        <Button class="mainBtn"text="Sign Up"(tap)="register()"></Button>
+
+    </StackLayout>
+
+
+
+</FlexboxLayout>
